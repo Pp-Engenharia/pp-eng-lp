@@ -23,8 +23,8 @@ export async function POST(request: Request) {
     const disciplinasNomes = disciplinas.map((id: string) => disciplinasMap[id] || id);
 
     const data = await resend.emails.send({
-      from: 'onboarding@resend.dev',
-      to: ['kidbrejos@gmail.com'],
+      from: 'no-reply@pp-engenharia.com',
+      to: ['contato@pp-engenharia.com'],
       subject: 'Nova solicitação de orçamento - PP Engenharia',
       html: `
         <!DOCTYPE html>

@@ -24,7 +24,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: process.env.FROM_EMAIL!!,
-      to: [process.env.FROM_EMAIL!!],
+      to: [process.env.TO_EMAIL!!],
       subject: 'Nova solicitação de orçamento - PP Engenharia',
       html: `
         <!DOCTYPE html>

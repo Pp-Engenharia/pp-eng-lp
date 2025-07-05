@@ -15,13 +15,13 @@ export default function Header() {
         <span className="text-xl font-bold text-gray-800">PP Engenharia</span>
       </div>
       <nav className="hidden md:flex space-x-6 text-sm text-gray-700">
-        <Link href="#nosso-legado" className="hover:text-blue-600">Legado</Link>
-        <Link href="#porque-escolher" className="hover:text-blue-600">Diferenciais</Link>
-        <Link href="#nossos-valores" className="hover:text-blue-600">Valores</Link>
+        <Link href="#nosso-legado" className="hover:text-pp-blue">Legado</Link>
+        <Link href="#porque-escolher" className="hover:text-pp-blue">Diferenciais</Link>
+        <Link href="#nossos-valores" className="hover:text-pp-blue">Valores</Link>
       </nav>
       <Link 
         href="#contato" 
-        className="ml-4 text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 text-sm rounded-md"
+                  className="ml-4 text-white bg-pp-blue hover:bg-pp-blue-hover px-4 py-2 text-sm rounded-md"
       >
         Solicitar orçamento
       </Link>

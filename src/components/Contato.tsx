@@ -229,7 +229,7 @@ export default function Contato() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-md disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-pp-blue hover:bg-pp-blue-hover text-white font-medium py-3 rounded-md disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={status.loading}
           >
             {status.loading ? 'Enviando...' : 'Enviar solicitação'}

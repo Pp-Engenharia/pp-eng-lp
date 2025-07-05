@@ -12,17 +12,17 @@ const diferenciais: Diferencial[] = [
   {
     titulo: "Atendimento Personalizado",
     descricao: "Cada projeto tratado como único, com atenção às necessidades específicas de cada cliente.",
-    icone: <FaHandshake className="w-8 h-8 text-blue-600" />
+            icone: <FaHandshake className="w-8 h-8 text-pp-blue" />
   },
   {
     titulo: "Precisão Técnica",
     descricao: "Planejamento e execução alinhados aos mais altos padrões da engenharia civil.",
-    icone: <FaBullseye className="w-8 h-8 text-blue-600" />
+            icone: <FaBullseye className="w-8 h-8 text-pp-blue" />
   },
   {
     titulo: "Compromisso com Prazos",
     descricao: "Entrega pontual sem abrir mão da qualidade e segurança em todas as etapas.",
-    icone: <FaClock className="w-8 h-8 text-blue-600" />
+            icone: <FaClock className="w-8 h-8 text-pp-blue" />
   }
 ];
 

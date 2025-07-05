@@ -1,6 +1,6 @@
 export default function Legado() {
   return (
-    <section id="nosso-legado" className="relative py-20 px-6 bg-blue-600">
+    <section id="nosso-legado" className="relative py-20 px-6 bg-pp-blue">
       <div className="absolute top-0 left-0 w-full h-16 bg-white" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 0)' }} />
       <div className="max-w-6xl mx-auto pt-8">
         <h2 className="text-3xl font-bold text-center mb-10 text-white">

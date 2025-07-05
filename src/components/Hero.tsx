@@ -14,7 +14,7 @@ export default function Hero() {
           </p>
           <Link 
             href="#contato" 
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-base font-medium"
+            className="inline-block bg-pp-blue hover:bg-pp-blue-hover text-white px-6 py-3 rounded-md text-base font-medium"
           >
             Solicitar orçamento
           </Link>
@@ -27,7 +27,7 @@ export default function Hero() {
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-blue-900/50 flex items-end p-4">
+            <div className="absolute inset-0 bg-pp-blue/50 flex items-end p-4">
               <span className="text-white text-lg font-semibold">+sustentabilidade</span>
             </div>
           </div>

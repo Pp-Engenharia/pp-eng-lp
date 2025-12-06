@@ -1,6 +1,6 @@
 {
   "name": "pp-engenharia",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS='--max-old-space-size=4096' next dev",
@@ -25,7 +25,7 @@
     "@types/react": "^18.2.57",
     "@types/react-dom": "^18.2.19",
     "autoprefixer": "^10.4.17",
-    "eslint": "^8.56.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^16.0.7",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",

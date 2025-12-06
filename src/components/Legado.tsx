@@ -9,10 +9,10 @@ export default function Legado() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
             <h3 className="text-xl font-semibold mb-4 text-white">
-              História
+              Essência
             </h3>
             <p className="text-white/90">
-              Fundada com o compromisso de transformar a engenharia civil através da inovação e excelência, a PP Engenharia se estabeleceu como referência no setor. Nossa jornada é marcada por projetos desafiadores e conquistas significativas.
+              Mais do que entregar projetos, buscamos criar experiências que deixem marcas positivas, nas pessoas, nos espaços e no tempo.
             </p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
@@ -20,7 +20,7 @@ export default function Legado() {
               Missão
             </h3>
             <p className="text-white/90">
-              Desenvolver soluções de engenharia que superem expectativas, combinando expertise técnica com compromisso com a qualidade e sustentabilidade. Buscamos constantemente a excelência em cada projeto que realizamos.
+              Oferecer soluções em engenharia com clareza, cuidado e funcionalidade, tornando o processo de construir mais acessível, organizado e humano.
             </p>
           </div>
         </div>

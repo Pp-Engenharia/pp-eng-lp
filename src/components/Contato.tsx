@@ -131,99 +131,33 @@ export default function Contato() {
                   type="checkbox" 
                   className="accent-orange-500" 
                   name="disciplinas" 
-                  value="concreto"
-                  checked={formData.disciplinas.includes('concreto')}
-                  onChange={() => handleDisciplinaChange('concreto')}
+                  value="estrutural"
+                  checked={formData.disciplinas.includes('estrutural')}
+                  onChange={() => handleDisciplinaChange('estrutural')}
                 />
-                Estruturas de Concreto Armado
+                Projeto Estrutural
               </label>
               <label className="flex items-center gap-2">
                 <input 
                   type="checkbox" 
                   className="accent-orange-500" 
                   name="disciplinas" 
-                  value="alvenaria"
-                  checked={formData.disciplinas.includes('alvenaria')}
-                  onChange={() => handleDisciplinaChange('alvenaria')}
+                  value="instalacoes"
+                  checked={formData.disciplinas.includes('instalacoes')}
+                  onChange={() => handleDisciplinaChange('instalacoes')}
                 />
-                Estruturas de Alvenaria Estrutural
+                Projeto de Instalações
               </label>
               <label className="flex items-center gap-2">
                 <input 
                   type="checkbox" 
                   className="accent-orange-500" 
                   name="disciplinas" 
-                  value="fundacoes"
-                  checked={formData.disciplinas.includes('fundacoes')}
-                  onChange={() => handleDisciplinaChange('fundacoes')}
+                  value="outros"
+                  checked={formData.disciplinas.includes('outros')}
+                  onChange={() => handleDisciplinaChange('outros')}
                 />
-                Projeto de Fundações
-              </label>
-              <label className="flex items-center gap-2">
-                <input 
-                  type="checkbox" 
-                  className="accent-orange-500" 
-                  name="disciplinas" 
-                  value="eletricas"
-                  checked={formData.disciplinas.includes('eletricas')}
-                  onChange={() => handleDisciplinaChange('eletricas')}
-                />
-                Projeto de Inst. Elétricas
-              </label>
-              <label className="flex items-center gap-2">
-                <input 
-                  type="checkbox" 
-                  className="accent-orange-500" 
-                  name="disciplinas" 
-                  value="hidrossanitarias"
-                  checked={formData.disciplinas.includes('hidrossanitarias')}
-                  onChange={() => handleDisciplinaChange('hidrossanitarias')}
-                />
-                Projeto de Inst. Hidrossanitárias
-              </label>
-              <label className="flex items-center gap-2">
-                <input 
-                  type="checkbox" 
-                  className="accent-orange-500" 
-                  name="disciplinas" 
-                  value="pluviais"
-                  checked={formData.disciplinas.includes('pluviais')}
-                  onChange={() => handleDisciplinaChange('pluviais')}
-                />
-                Projeto de Inst. Pluviais
-              </label>
-              <label className="flex items-center gap-2">
-                <input 
-                  type="checkbox" 
-                  className="accent-orange-500" 
-                  name="disciplinas" 
-                  value="frigorigenas"
-                  checked={formData.disciplinas.includes('frigorigenas')}
-                  onChange={() => handleDisciplinaChange('frigorigenas')}
-                />
-                Projeto de Inst. Frigorígenas
-              </label>
-              <label className="flex items-center gap-2">
-                <input 
-                  type="checkbox" 
-                  className="accent-orange-500" 
-                  name="disciplinas" 
-                  value="telecom"
-                  checked={formData.disciplinas.includes('telecom')}
-                  onChange={() => handleDisciplinaChange('telecom')}
-                />
-                Projeto de Telecomunicações
-              </label>
-              <label className="flex items-center gap-2">
-                <input 
-                  type="checkbox" 
-                  className="accent-orange-500" 
-                  name="disciplinas" 
-                  value="gas"
-                  checked={formData.disciplinas.includes('gas')}
-                  onChange={() => handleDisciplinaChange('gas')}
-                />
-                Projeto de Inst. de Gás (GLP)
+                Outras Demandas
               </label>
             </div>
           </div>

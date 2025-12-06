@@ -19,12 +19,21 @@ export default function Header() {
         <Link href="#porque-escolher" className="hover:text-pp-blue">Diferenciais</Link>
         <Link href="#nossos-valores" className="hover:text-pp-blue">Valores</Link>
       </nav>
-      <Link 
-        href="#contato" 
-                  className="ml-4 text-white bg-pp-blue hover:bg-pp-blue-hover px-4 py-2 text-sm rounded-md"
-      >
-        Solicitar orçamento
-      </Link>
+      <div>
+        <Link
+          href="https://app.pp-engenharia.com/login/?next=/" 
+          className="ml-4 text-white bg-pp-blue hover:bg-pp-blue-hover px-4 py-2 text-sm rounded-md"
+        >
+          Área do Cliente
+        </Link>
+
+        <Link 
+          href="#contato" 
+          className="ml-4 text-white bg-pp-blue hover:bg-pp-blue-hover px-4 py-2 text-sm rounded-md"
+        >
+          Solicitar orçamento
+        </Link>
+      </div>
     </header>
   );
 } 

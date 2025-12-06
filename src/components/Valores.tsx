@@ -3,11 +3,11 @@
 import { useEffect, useRef } from 'react';
 
 const valores = [
-  "Inovação",
-  "Excelência",
-  "Ética",
-  "Comprometimento",
-  "Sustentabilidade"
+  "EXPERTISE",
+  "SENSIBILIDADE",
+  "FUNCIONALIDADE",
+  "SEGURANÇA",
+  "ESTÉTICA"
 ];
 
 export default function Valores() {
@@ -28,7 +28,7 @@ export default function Valores() {
       <div className="relative z-10 max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Nossos Valores</h2>
         <p className="text-lg max-w-2xl mx-auto mb-8 text-gray-200">
-          Os pilares que sustentam cada projeto desenvolvido pela PP Engenharia, refletindo nossa cultura organizacional e nosso compromisso com clientes, colaboradores e sociedade.
+          Uma empresa que une expertise técnica e sensibilidade no atendimento, transformando projetos de engenharia em experiências acessíveis, organizadas e verdadeiramente humanas. Nossa atuação é marcada pela busca constante por equilíbrio entre funcionalidade, segurança e estética, colocando o cliente no centro de todo o processo.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           {valores.map((valor, index) => (

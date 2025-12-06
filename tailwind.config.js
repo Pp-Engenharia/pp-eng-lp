@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'pp-blue': '#00314D',
+        'pp-blue': '#272838',
         'pp-blue-hover': '#002a42',
       },
     },

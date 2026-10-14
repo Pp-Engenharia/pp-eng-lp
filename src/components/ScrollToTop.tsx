@@ -32,7 +32,7 @@ export default function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 p-3 bg-pp-blue text-white rounded-full shadow-lg hover:bg-pp-blue-hover transition-all duration-300 z-50"
+          className="fixed bottom-4 right-4 md:bottom-8 md:right-8 p-3 bg-pp-blue text-white rounded-full shadow-lg hover:bg-pp-blue-hover transition-all duration-300 z-50"
           aria-label="Voltar ao topo"
         >
           <FaArrowUp className="w-5 h-5" />

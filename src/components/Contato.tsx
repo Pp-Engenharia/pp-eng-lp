@@ -77,12 +77,12 @@ export default function Contato() {
   };
 
   return (
-    <section id="contato" className="bg-white py-20 px-6">
+    <section id="contato" className="bg-white py-16 md:py-20 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Solicite um orçamento
         </h2>
-        <form onSubmit={handleSubmit} className="space-y-4 bg-gray-50 p-6 rounded-lg border">
+        <form onSubmit={handleSubmit} className="space-y-4 bg-gray-50 p-4 sm:p-6 rounded-lg border">
           {status.message && (
             <div className={`p-4 rounded-md ${
               status.success ? 'bg-green-100 text-green-700' : 

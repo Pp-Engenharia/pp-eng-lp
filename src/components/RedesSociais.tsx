@@ -9,13 +9,13 @@ export default function RedesSociais() {
           Acompanhe nossos projetos e novidades através das nossas redes sociais
         </p>
         
-        <div className="flex justify-center items-center gap-8">
+        <div className="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-4 sm:gap-8">
           {/* Instagram */}
           <a
             href="https://www.instagram.com/engpedropinheiro/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col items-center gap-3 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 border border-gray-200"
+            className="group flex flex-col items-center gap-3 p-6 w-full max-w-xs mx-auto sm:mx-0 sm:w-auto bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 border border-gray-200"
           >
             <div className="w-16 h-16 bg-gradient-to-br from-purple-500 via-pink-500 to-orange-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
               <svg
@@ -40,7 +40,7 @@ export default function RedesSociais() {
             href="https://www.linkedin.com/in/pedro-henrique-pinheiro-de-sousa-49b70429b/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col items-center gap-3 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 border border-gray-200"
+            className="group flex flex-col items-center gap-3 p-6 w-full max-w-xs mx-auto sm:mx-0 sm:w-auto bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 border border-gray-200"
           >
             <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
               <svg
